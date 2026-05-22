@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-05-22">
+
+  <shop>
+    <name>AI Talent Hub</name>
+    <company>AI Talent Hub / Университет ИТМО</company>
+    <url>https://ai.itmo.ru</url>
+
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+
+    <categories>
+      <category id="1">Магистратура</category>
+      <category id="2" parentId="1">Искусственный интеллект</category>
+    </categories>
+
+    <offers>
+
+      <!-- Бюджетные места -->
+      <offer id="master-ai-budget" available="true">
+        <url>https://ai.itmo.ru/</url>
+        <price>0</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Онлайн-магистратура «Искусственный интеллект» в ИТМО — бюджет</name>
+        <description>
+          Двухлетняя онлайн-магистратура по искусственному интеллекту в Университете ИТМО.
+          215 бюджетных мест. Обучение в вечернее время — можно совмещать с работой.
+          Военный учебный центр, отсрочка от армии, общежитие, льготы на проезд.
+          Форматы ВКР: проект для компании-партнёра, MVP стартапа, научная статья или образовательный продукт на основе ИИ.
+          Поступление: Junior ML Contest, конкурс портфолио, МегаШкола ИТМО или вступительные экзамены.
+          Приём заявлений: с 20 июня по 20 августа. Приказы о зачислении: 25 августа.
+        </description>
+        <picture>https://static.tildacdn.com/tild3434-3064-4936-a231-396131353631/1080x1080.png</picture>
+        <vendor>Университет ИТМО</vendor>
+        <country_of_origin>Россия</country_of_origin>
+        <param name="Формат">Онлайн</param>
+        <param name="Длительность">2 года</param>
+        <param name="Уровень">Магистратура</param>
+        <param name="Тип обучения">Бюджет</param>
+        <param name="Мест">215</param>
+        <param name="Язык">Русский</param>
+        <param name="Начало приёма">20 июня</param>
+        <param name="Конец приёма">20 августа</param>
+      </offer>
+
+      <!-- Контрактные места -->
+      <offer id="master-ai-contract" available="true">
+        <url>https://ai.itmo.ru/</url>
+        <price>680000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Онлайн-магистратура «Искусственный интеллект» в ИТМО — контракт</name>
+        <description>
+          Двухлетняя онлайн-магистратура по искусственному интеллекту в Университете ИТМО.
+          95 контрактных мест. Стоимость: 680 000 рублей в год.
+          Доступен образовательный кредит на 15 лет под 3%.
+          Обучение в вечернее время — можно совмещать с работой.
+          Военный учебный центр, отсрочка от армии, общежитие, льготы на проезд.
+          Форматы ВКР: проект для компании-партнёра, MVP стартапа, научная статья или образовательный продукт на основе ИИ.
+          Поступление: Junior ML Contest, конкурс портфолио, МегаШкола ИТМО или вступительные экзамены.
+          Приём заявлений: с 20 июня по 28 августа. Приказы о зачислении: 30 августа.
+        </description>
+        <picture>https://static.tildacdn.com/tild3434-3064-4936-a231-396131353631/1080x1080.png</picture>
+        <vendor>Университет ИТМО</vendor>
+        <country_of_origin>Россия</country_of_origin>
+        <param name="Формат">Онлайн</param>
+        <param name="Длительность">2 года</param>
+        <param name="Уровень">Магистратура</param>
+        <param name="Тип обучения">Контракт</param>
+        <param name="Мест">95</param>
+        <param name="Стоимость в год">680 000 руб.</param>
+        <param name="Образовательный кредит">3% на 15 лет</param>
+        <param name="Язык">Русский</param>
+        <param name="Начало приёма">20 июня</param>
+        <param name="Конец приёма">28 августа</param>
+      </offer>
+
+    </offers>
+  </shop>
+</yml_catalog>
